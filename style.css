@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fixed-width{
+    max-width: 1200px;
+    margin: auto;
+}
+.float::after{
+content: "";
+display: inline-block;
+clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: right;
+}
+.color{
+    color: #fff;
+}
+.Heading-section{
+    background: #fff;
+    height: 80px;
+}
+.logop{
+    height: 50px;
+    margin-top: 15px;
+   
+}
+.Menu ul{}
+.Menu ul li{
+    display: inline-block;
+    padding: 6px 20px;
+    margin-top: 20px;
+}
+.Menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.Menu ul li a:hover{}
+.Banner-section{
+    background-image: url("./banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    color: #949494;
+}
+.Banner-section p {
+    padding: 8px 32px;
+    display: inline-block;
+    font-size: 19px;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    padding: 0 17px;
+    margin-left: 31px;
+}
+.click a {
+    margin: auto;
+    background: #fff;
+    color: #0e0707;
+    padding: 14px 21px;
+    display: inline-block;
+    margin-top: 11px 0px;
+    text-align: center;
+    box-shadow: 1px 2px 5px 0px;
+    margin-left: 5px;
+    margin-right: -48px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .7s;
+}
+.click a:hover{
+    background-color: rgb(235, 145, 27);
+}
+
+
+
+.prisign h1{
+    padding: 10px 20px;
+}
+.prisign p{
+    margin-bottom: 80px;
+}
+
+
+.contrnt{
+    background: #f7f7f7;
+
+}
+.contentt{
+    border-bottom: 1px solid #0e0707;
+    color: black;
+    transition: .7s;
+}
+.contentt:hover{
+    background-color: rgb(235, 145, 27);
+}
+.box{
+    padding: 20px;
+    line-height: 25px;
+    color: black;
+
+}
+.list a{
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+   
+}
+.BOX1{
+    color: black;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.clickk a {
+    margin: auto;
+    background: #fff;
+    color: #0e0707;
+    padding: 0px 18px;
+    display: inline-block;
+    margin-top: 11px 0px;
+    text-align: center;
+    box-shadow: 1px 2px 5px 0px;
+    margin-left: 124px;
+    transition: .7s;
+}
+.clickk a:hover{
+    background-color: rgb(235, 145, 27);
+}
+
+
+
+/* Adress */
+.Adress{
+    padding: 120px 0;
+}
+.Adress img{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    
+}
+.BORDER{
+    border: 2px solid #e79230;
+    outline: 2px solid #e79230;
+    outline-offset: -7px;
+   
+}
+.title h1{
+    margin-top: 67px;
+}
+.BORDER h2,h4{
+    text-align: center;
+}
+
+
+/* suscribe */
+.suscribe{
+    padding: 120px 0;
+    margin: auto;
+    text-align: center;
+    background: #f5f5f5;
+
+}
+.text h1{
+    margin-top: 23px;
+}
+.email{
+    margin-top: 33px;
+    color: #fff;
+
+    
+}
+.text a {
+    text-decoration: none;
+    padding: 6px 37px;
+    display: inline-block;
+    font-size: 26px;
+    background: #aa972c;
+    margin-top: 12px;
+    border-radius: 10px;
+    transition: .6s;
+}
+.text a:hover{
+            background: orange;}
+
+
+            .Design h1 {
+                text-align: center;
+                margin-bottom: 89px;
+            }
+
+.Design{
+   padding: 110px 0;
+}
+    
+.Details {
+    padding: 0 0;
+    float: left;
+    line-height: 25px;
+    
+}
+.Details h1 {
+    margin-left: -19px;
+    text-align: left;
+    line-height: 0px;
+    margin-top: 31px;
+}
+.Details p {
+    margin-top: -40px;
+    display: inline-block;
+    margin-bottom: 1px;
+}
+h1.class {
+    margin-top: -62px;
+
+}
+
+.small{
+    font-size: 15px;
+}
+
+
+/* FeedBack */
+.FeedBack{
+    padding: 100px 0;
+}
+
+
+
+.ABC{
+   padding: 5px 73px; 
+}
