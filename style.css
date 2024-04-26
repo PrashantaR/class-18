@@ -38,23 +38,43 @@ clear: both;
     margin-top: 15px;
    
 }
-.Menu ul{}
-.Menu ul li{
-    display: inline-block;
-    padding: 6px 20px;
-    margin-top: 20px;
+.list ul{
+    list-style: none;
 }
-.Menu ul li a{
+
+
+.Menu ul li a {
     text-decoration: none;
     color: black;
+    padding: 13px 19px;
+    margin-top: 16px;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 16px;
+    transition: .9s;
+    border-radius: 10px;
 }
-.Menu ul li a:hover{}
+
+.Menu ul li a:hover{
+    background: orange;
+}
 .Banner-section{
     background-image: url("./banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 150px 0;
     color: #949494;
+}
+.menu ul{
+
+}
+.Menu ul li{
+    display: inline-block;
+}
+.list i{
+    color: #e68e0a;
+    font-size: 28px;
+     padding: 1px 12px;
 }
 .Banner-section p {
     padding: 8px 32px;
@@ -237,10 +257,93 @@ h1.class {
 /* FeedBack */
 .FeedBack{
     padding: 100px 0;
+    background: #f5f5f5;
+   
+    margin: auto;
+}
+.FeedBack-text h1 {
+    text-align: center;
+    margin-bottom: 113px;
+}
+.FeedBack-text h2 {
+    text-align: center;
+    margin-bottom: 112px;
+    padding: 9px 0px;
+}
+.bachground p{
+    background: #fff;
+
+}
+.Background1{
+    border: 1px solid ;
+}
+
+.left img{
+    border: 2px solid #af9b2d;
+}
+.p{
+    padding: 10px 0;
 }
 
 
 
+
+
+
+
+
 .ABC{
-   padding: 5px 73px; 
+  
+    padding: 5px 73px; 
+}
+
+/* contuct */
+.contuct{
+    padding: 120px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* form */
+.a {
+    padding: 14px 187px;
+    border-radius: 10px;
+    border: 1px solid #aa972c;
+}
+.b {
+    padding: 14px 47px;
+    margin-left: -2px;
+    border-radius: 10px;
+    border: 1px solid #aa972c;
+}
+.c{
+    padding: 14px 45px;
+    margin-right: -3px;
+    border-radius: 10px;
+    border: 1px solid #aa972c;
+}
+.d {
+    padding: 65px 198px;
+    border-radius: 10px;
+    border: 1px solid #aa972c;
+}
+.teext b {
+    font-weight: 700;
+    padding: 9px 32px;
+    display: inline-block;
+    margin-top: -4px;
+}
+.sub a{ 
+    background: #aa972c; transition: all 0.7s ease 0s;
+    padding: 12px 47px;
+    text-decoration: none;
+    margin-bottom: 29px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 32px;
+    
+    
+}
+.sub a:hover{
+   background: pink;
 }
